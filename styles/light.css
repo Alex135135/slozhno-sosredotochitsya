@@ -23,7 +23,7 @@
 .page.theme_light .l {
     border: 1px var(--hov-color) solid;
 }
-.page.theme_light .header{
+.page.theme_light .header {
     position: relative;
     background: url("../images/cover-image-light.png")no-repeat center;
     background-size: cover;

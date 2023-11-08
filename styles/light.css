@@ -5,8 +5,82 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    --accent-color: #353430;
+    --fon-color: #FFC2E6;
+    --back-fon-color: #FDF0F6FF;
+    --bor-color: #FF0070;
+    --bor-tx-color: #FF8DCB;
+    --tx-bac: #FF8DCB;
+    --tx-color: #353430;
+    --hov-color: #32312D66;
+    --tx-h-bac: #FF8DCB;
+    --fon-bac: #FFF1F7;
+    --tx-h3-color: #353430;
+    --tx-p-color: #353430;
+
+    color-scheme: light;
 }
+.page.theme_light .l {
+    border: 1px var(--hov-color) solid;
+}
+.page.theme_light .header{
+    position: relative;
+    background: url("../images/cover-image-light.png")no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+
+.page.theme_light .images-right-d,
+.page.theme_light .images-left-d,
+.page.theme_light .images-right,
+.page.theme_light .images-left {
+    position: absolute;
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+}
+.page.theme_light .images-right-d,
+.page.theme_light .images-right {
+    top: 20px;
+    right: 20px;
+}
+.page.theme_light .images-left-d,
+.page.theme_light .images-left {
+    left: 20px;
+    bottom: 20px;
+}
+.page.theme_light .images-right-lamp {
+    position: absolute;
+    object-fit: contain;
+    width: 52px;
+    height: 26px;
+    top: 20px;
+    right: 29px;
+}
+.page.theme_light .images-right-lamp,
+.page.theme_light .images-right-d,
+.page.theme_light .images-left-d {
+    display: none;
+}
+/*.header {
+    position: relative;
+    background: url("../images/cover-image-light.png")no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}*/
+
+/*{
+    !* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    *!
+
+}*/
+
+/*
+@media (prefers-color-scheme: light) {*/
+
+
+/*}*/

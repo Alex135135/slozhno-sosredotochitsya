@@ -413,6 +413,8 @@ a {
         min-width: 0;
         right: 10px;
         left: 10px;
+        right: 10px;
+        bottom: 66px;
     }
     .images-left-d,
     .images-left {
@@ -488,10 +490,6 @@ a {
     }
     .main-section4-img > div:nth-child(5) {
         grid-column: auto;
-    }
-    .header p {
-        right: 10px;
-        bottom: 66px;
     }
     .footer h2 {
         padding-inline-start: 10px;

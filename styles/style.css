@@ -26,7 +26,6 @@ body {
     margin: 0 auto;
     background: var(--fon-bac);
 }
-
 h1,
 h2,
 h3,
@@ -37,7 +36,6 @@ p {
     font-family: IBM Plex Mono;
     margin: 0;
 }
-
 ul {
     margin: 0;
     padding: 0;

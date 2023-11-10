@@ -78,6 +78,9 @@ a {
 
     color-scheme: normal;
 }
+header {
+    height: 100vh;
+}
 .theme_auto .header {
     position: relative;
     background: url("../images/cover-image-light.png")no-repeat center;
@@ -414,7 +417,6 @@ a {
         min-width: 0;
         right: 10px;
         left: 10px;
-        right: 10px;
         bottom: 66px;
     }
     .images-left-d,

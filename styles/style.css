@@ -59,7 +59,7 @@ a {
 
 
 .page {
-    background-attachment: fixed`
+    background-attachment: fixed;
 }
 
 .theme_auto {
@@ -124,27 +124,27 @@ header {
     border: 1px var(--accent-color) solid;
 }
 .header h1 {
-    height: 100%;
-    margin-block-start: -46px;
-    padding-inline-start: 0px;
     font-family: 'IBM Plex mono';
     font-size: clamp(7.5rem, 0.563rem + 14.45vw, 9.813rem);
     font-weight: 700;
     line-height: 129.53px;
+    height: 100%;
+    margin-block-start: -46px;
+    padding-inline-start: 0px;
     color: var(--fon-color);
     text-shadow: 4px 4px var(--bor-color);
     display: flex;
     align-items: center;
 }
 .header p {
-    width: 50%;
-    max-width: 491px;
-    min-width: 364px;
-    height: auto;
     font-family: 'IBM Plex mono';
     font-weight: 700;
     font-size: 18px;
     line-height: 23.4px;
+    width: 50%;
+    max-width: 491px;
+    min-width: 364px;
+    height: auto;
     color: var(--tx-color);
     background: var(--bor-tx-color);
     right: 20px;
@@ -339,12 +339,12 @@ header {
     margin: 56px auto 0;
 }
 .footer h2 {
-    height: 100%;
     font-family: 'IBM Plex mono';
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     font-weight: 700;
     line-height: 129.53px;
     color: var(--fon-color);
+    height: 100%;
     text-shadow: 4px 4px var(--bor-color);
     display: flex;
     justify-content: center;

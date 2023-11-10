@@ -431,8 +431,6 @@ a {
     .main-section1 {
         padding: 0 10px;
         flex-direction: column;
-    }
-    .main-section1 {
         margin: 30px auto;
     }
     .main-section1-title h3,
@@ -450,6 +448,9 @@ a {
     }
     .main-section4-img {
         margin: 9px auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto auto auto auto auto;
+        grid-gap: 8px 0;
     }
     .main-section3-tx h3 {
         margin: 20px auto 0;
@@ -473,11 +474,6 @@ a {
     }
     .main-section3 {
         flex-direction: column;
-    }
-    .main-section4-img {
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: auto auto auto auto auto;
-        grid-gap: 8px 0;
     }
     .main-section4-img > div:nth-child(1) {
         grid-column: auto;

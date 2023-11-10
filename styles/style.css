@@ -1,9 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 @font-face {
     font-family: 'IBM Plex mono';
@@ -16,7 +12,12 @@
     font-family: 'IBM Plex mono';
     src: url(../fonts/IBMPlexMono-Bold.woff) format('woff');
     font-weight: bold;
-    font-display: swap;
+    
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}font-display: swap;
 }
 body {
     font-family: 'IBM Plex mono', 'Arial', 'sans-serif';

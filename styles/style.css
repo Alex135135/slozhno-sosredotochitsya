@@ -90,7 +90,7 @@ header {
 
 .header::after {
   content: '';
-  max-width: 25px;
+  min-width: 25px;
   min-height: 25px;
   margin: 0 0 20px 20px;
   transform: rotate(0deg);

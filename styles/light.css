@@ -3,6 +3,19 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@font-face {
+    font-family: "IBM Plex mono";
+    src: url("../fonts/IBMPlexMono-Regular.woff") format("woff");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IBM Plex mono";
+    src: url("../fonts/IBMPlexMono-Bold.woff") format("woff");
+    font-weight: bold;
+    font-display: swap;
+}
 .page.theme_light {
     --accent-color: #353430;
     --fon-color: #FFC2E6;

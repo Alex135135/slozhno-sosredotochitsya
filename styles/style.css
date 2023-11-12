@@ -12,11 +12,6 @@
     font-weight: bold;
     font-display: swap;
 }
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 body {
     font-family: 'IBM Plex mono', 'Arial', 'sans-serif';
     min-inline-size: 375px;
@@ -24,6 +19,12 @@ body {
     margin: 0 auto;
     background: var(--fon-bac);
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,

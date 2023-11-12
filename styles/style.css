@@ -1,6 +1,19 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+@font-face {
+    font-family: "IBM Plex mono";
+    src: url("../fonts/IBMPlexMono-Regular.woff") format("woff");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "IBM Plex mono";
+    src: url("../fonts/IBMPlexMono-Bold.woff") format("woff");
+    font-weight: bold;
+    font-display: swap;
+}
 body {
-    font-family: 'IBM Plex mono', 'Arial', 'sans-serif';
+    /*font-family: 'IBM Plex mono', 'Arial', 'sans-serif';*/
     min-inline-size: 375px;
     max-inline-size: 1440px;
     margin: 0 auto;

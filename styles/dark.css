@@ -3,91 +3,14 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 .page.theme_dark {
-    --accent-color: #FF0070;
-    --fon-color: #DB00FF;
-    --bor-color: #FF0070;
-    --hov-color: #FF007066;
-    --bor-tx-color: #FF0070;
-    --tx-color: #000028;
-    --tx-h-bac: #FF0070;
-    --fon-bac: #000028;
-    --tx-h3-color: #FF0070;
-    --tx-p-color: #F1B2CE;
-
-    --back-fon-color: #FDF0F6FF;
-
-    color-scheme:  dark;
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+  --base-color: var(--accent-color);
+  --text-color: #f1b2ce;
+  --text-decor-color: var(--bg-color);
+  --logo-color: #db00ff;
+  --logo-shadow-color: #ff0070;
+  --cover-image: url(../images/cover-image-dark.png);
 }
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-/*
-
-
-
-@media (prefers-color-scheme: dark) {
-*/
-
-.page.theme_dark .header {
-        position: relative;
-        background: url("../images/cover-image-dark.png")no-repeat center;
-        background-size: cover;
-        width: auto;
-        height: 100vh;
-    }
-.page.theme_dark .d {
-    border: 1px var(--hov-color) solid;
-}
-.page.theme_dark .main-section1-tx a,
-.page.theme_dark .main-section3-tx a {
-    font-family: 'IBM Plex mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23.4px;
-    color: #F1B2CE;
-    text-shadow: 2px 2px #FF0070;
-    text-decoration: none;
-}
-.page.theme_dark .main-section1-tx a:hover,
-.page.theme_dark .main-section3-tx a:hover {
-    text-decoration: underline;
-}
-.page.theme_dark .main-section1-tx a:focus,
-.page.theme_dark .main-section3-tx a:focus {
-    border: 1px #F1B2CE solid;
-}
-.page.theme_dark .images-right-d,
-.page.theme_dark .images-left-d,
-.page.theme_dark .images-right,
-.page.theme_dark .images-left {
-    position: absolute;
-    object-fit: contain;
-    width: 25px;
-    height: 25px;
-}
-.page.theme_dark .images-right-d,
-.page.theme_dark .images-right {
-    top: 20px;
-    right: 20px;
-}
-.page.theme_dark .images-left-d,
-.page.theme_dark .images-left {
-    left: 20px;
-    bottom: 20px;
-}
-.page.theme_dark .images-right-lamp {
-    position: absolute;
-    object-fit: contain;
-    width: 52px;
-    height: 26px;
-    top: 20px;
-    right: 29px;
-}
-.page.theme_dark .images-right,
-.page.theme_dark .images-left {
-    display: none;
-}
-/*}*/
-
